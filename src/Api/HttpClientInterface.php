@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace BuildkiteApi\Api;
+namespace bbaga\BuildkiteApi\Api;
 
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\RequestInterface;
