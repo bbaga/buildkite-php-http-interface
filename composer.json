@@ -1,0 +1,21 @@
+{
+    "name": "bbaga/buildkite-php-http-interface",
+    "description": "HttpClientInterface for bbaga/buildkite-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bela Bagameri",
+            "email": "bagameri.bela@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BuildkiteApi\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0",
+        "psr/http-factory": "^1.0"
+    }
+}
