@@ -11,11 +11,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "BuildkiteApi\\": "src/"
+            "bbaga\\BuildkiteApi\\": "src/"
         }
     },
     "require": {
         "psr/http-message": "^1.0",
         "psr/http-factory": "^1.0"
-    }
+    },
+    "minimum-stability": "dev"
 }
