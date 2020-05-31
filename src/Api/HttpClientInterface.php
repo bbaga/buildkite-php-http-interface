@@ -3,11 +3,7 @@ declare(strict_types=1);
 
 namespace bbaga\BuildkiteApi\Api;
 
+use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
 
-interface HttpClientInterface extends RequestFactoryInterface
-{
-    public function send(RequestInterface $request, array $options = []): ResponseInterface;
-}
+interface HttpClientInterface extends ClientInterface, RequestFactoryInterface {}
