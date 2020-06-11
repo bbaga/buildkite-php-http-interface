@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # buildkite-php-http-interface
 HttpClientInterface to be used with [`bbaga/buildkite-php`](https://github.com/bbaga/buildkite-php)
 
